@@ -1,0 +1,395 @@
+[2019-12-12 01:44:01] [NOTICE] config option `refused_code_in_responses` is deprecated, use `blocked_query_response`
+[2019-12-12 01:44:01] [NOTICE] dnscrypt-proxy 2.0.34-beta.1
+[2019-12-12 01:44:02] [NOTICE] Network connectivity detected
+[2019-12-12 01:44:02] [NOTICE] Loading the set of whitelisting rules from [dnscrypt-whitelist.txt]
+[2019-12-12 01:44:02] [NOTICE] Firefox workaround initialized
+[2019-12-12 01:44:02] [NOTICE] Loading the set of blocking rules from [dnscrypt-blacklist-domains.txt]
+[2019-12-12 01:44:05] [NOTICE] Loading the set of forwarding rules from [dnscrypt-forwarding-rules.txt]
+[2019-12-12 01:44:05] [NOTICE] Loading the set of IP blocking rules from [dnscrypt-blacklist-ips.txt]
+[2019-12-12 01:44:05] [NOTICE] Now listening to 127.0.0.1:5350 [UDP]
+[2019-12-12 01:44:05] [NOTICE] Now listening to 127.0.0.1:5350 [TCP]
+[2019-12-12 01:44:05] [NOTICE] Now listening to [::1]:5350 [UDP]
+[2019-12-12 01:44:05] [NOTICE] Now listening to [::1]:5350 [TCP]
+[2019-12-12 01:44:05] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 01:44:05] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 01:44:05] [NOTICE] [cisco] OK (DNSCrypt) - rtt: 102ms
+[2019-12-12 01:44:10] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 01:44:10] [NOTICE] [cloudflare] OK (DoH) - rtt: 690ms
+[2019-12-12 01:44:10] [NOTICE] Sorted latencies:
+[2019-12-12 01:44:10] [NOTICE] -   102ms cisco
+[2019-12-12 01:44:10] [NOTICE] -   690ms cloudflare
+[2019-12-12 01:44:10] [NOTICE] Server with the lowest initial latency: cisco (rtt: 102ms)
+[2019-12-12 01:44:10] [NOTICE] dnscrypt-proxy is ready - live servers: 2
+[2019-12-12 05:44:10] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 05:44:10] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 05:44:10] [INFO] [cisco] OK (DNSCrypt) - rtt: 92ms
+[2019-12-12 05:44:10] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 05:44:10] [INFO] [cloudflare] OK (DoH) - rtt: 102ms
+[2019-12-12 05:44:10] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 05:44:10] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 05:44:10] [INFO] [cisco] OK (DNSCrypt) - rtt: 90ms
+[2019-12-12 05:44:10] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 05:44:10] [INFO] [cloudflare] OK (DoH) - rtt: 49ms
+[2019-12-12 05:44:10] [NOTICE] Sorted latencies:
+[2019-12-12 05:44:10] [NOTICE] -    49ms cloudflare
+[2019-12-12 05:44:10] [NOTICE] -    90ms cisco
+[2019-12-12 05:44:10] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 49ms)
+[2019-12-12 07:51:49] [INFO] Blocking [www.apple.com.]
+[2019-12-12 07:51:57] [INFO] Blocking [www.apple.com.]
+[2019-12-12 07:59:22] [INFO] Blocking [www.apple.com.]
+[2019-12-12 08:02:09] [INFO] Blocking [www.apple.com.]
+[2019-12-12 08:11:52] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 08:21:25] [INFO] Blocking [www.apple.com.]
+[2019-12-12 09:44:10] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 09:44:10] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 09:44:10] [INFO] [cisco] OK (DNSCrypt) - rtt: 92ms
+[2019-12-12 09:44:11] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 09:44:11] [INFO] [cloudflare] OK (DoH) - rtt: 48ms
+[2019-12-12 09:44:11] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 09:44:11] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 09:44:11] [INFO] [cisco] OK (DNSCrypt) - rtt: 114ms
+[2019-12-12 09:44:11] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 09:44:11] [INFO] [cloudflare] OK (DoH) - rtt: 52ms
+[2019-12-12 09:44:11] [NOTICE] Sorted latencies:
+[2019-12-12 09:44:11] [NOTICE] -    52ms cloudflare
+[2019-12-12 09:44:11] [NOTICE] -   114ms cisco
+[2019-12-12 09:44:11] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 52ms)
+[2019-12-12 13:44:11] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 13:44:11] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 13:44:11] [INFO] [cisco] OK (DNSCrypt) - rtt: 97ms
+[2019-12-12 13:44:12] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 13:44:12] [INFO] [cloudflare] OK (DoH) - rtt: 268ms
+[2019-12-12 13:44:12] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 13:44:12] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 13:44:12] [INFO] [cisco] OK (DNSCrypt) - rtt: 93ms
+[2019-12-12 13:44:13] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 13:44:14] [INFO] [cloudflare] OK (DoH) - rtt: 123ms
+[2019-12-12 13:44:14] [NOTICE] Sorted latencies:
+[2019-12-12 13:44:14] [NOTICE] -    93ms cisco
+[2019-12-12 13:44:14] [NOTICE] -   123ms cloudflare
+[2019-12-12 13:44:14] [NOTICE] Server with the lowest initial latency: cisco (rtt: 93ms)
+[2019-12-12 17:44:14] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 17:44:15] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 17:44:15] [INFO] [cisco] OK (DNSCrypt) - rtt: 130ms
+[2019-12-12 17:44:15] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 17:44:15] [INFO] [cloudflare] OK (DoH) - rtt: 344ms
+[2019-12-12 17:44:15] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 17:44:15] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 17:44:15] [INFO] [cisco] OK (DNSCrypt) - rtt: 107ms
+[2019-12-12 17:44:16] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 17:44:16] [INFO] [cloudflare] OK (DoH) - rtt: 49ms
+[2019-12-12 17:44:16] [NOTICE] Sorted latencies:
+[2019-12-12 17:44:16] [NOTICE] -    49ms cloudflare
+[2019-12-12 17:44:16] [NOTICE] -   107ms cisco
+[2019-12-12 17:44:16] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 49ms)
+[2019-12-12 21:29:08] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 21:30:13] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 21:44:16] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 21:44:18] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 21:44:18] [INFO] [cisco] OK (DNSCrypt) - rtt: 1866ms
+[2019-12-12 21:44:20] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 21:44:20] [INFO] [cloudflare] OK (DoH) - rtt: 1298ms
+[2019-12-12 21:44:20] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-12 21:44:20] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-12 21:44:20] [INFO] [cisco] OK (DNSCrypt) - rtt: 139ms
+[2019-12-12 21:44:20] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-12 21:44:21] [INFO] [cloudflare] OK (DoH) - rtt: 76ms
+[2019-12-12 21:44:21] [NOTICE] Sorted latencies:
+[2019-12-12 21:44:21] [NOTICE] -    76ms cloudflare
+[2019-12-12 21:44:21] [NOTICE] -   139ms cisco
+[2019-12-12 21:44:21] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 76ms)
+[2019-12-12 21:52:38] [INFO] Blocking [www.apple.com.]
+[2019-12-12 21:54:32] [INFO] Blocking [www.apple.com.]
+[2019-12-12 21:57:42] [INFO] Blocking [www.apple.com.]
+[2019-12-12 21:57:46] [INFO] Blocking [www.apple.com.]
+[2019-12-12 22:08:10] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 22:12:30] [INFO] Blocking [www.apple.com.]
+[2019-12-12 22:43:47] [INFO] Blocking [www.apple.com.]
+[2019-12-12 22:45:29] [INFO] Blocking [www.apple.com.]
+[2019-12-12 22:58:54] [INFO] Blocking [g.live.com.]
+[2019-12-12 22:58:54] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 22:59:07] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:00:08] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:01:07] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:02:21] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:03:52] [INFO] Blocking [g.live.com.]
+[2019-12-12 23:08:47] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:20:17] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:20:17] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:20:23] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:24:05] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:26:31] [INFO] Blocking [slog.sina.com.cn.]
+[2019-12-12 23:26:32] [INFO] Blocking [slog.sina.com.cn.]
+[2019-12-12 23:29:47] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:30:32] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:30:32] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:31:22] [INFO] Blocking [www.apple.com.]
+[2019-12-12 23:36:40] [INFO] Blocking [www.apple.com.]
+[2019-12-12 23:36:40] [INFO] Blocking [www.apple.com.]
+[2019-12-12 23:36:49] [INFO] Blocking [www.apple.com.]
+[2019-12-12 23:39:50] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:41:05] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:41:35] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:45:00] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-12 23:45:13] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:45:15] [INFO] Blocking [www.microsoft.com.]
+[2019-12-12 23:48:28] [INFO] Blocking [www.apple.com.]
+[2019-12-13 00:12:45] [NOTICE] Stopped.
+[2019-12-13 00:12:45] [NOTICE] config option `refused_code_in_responses` is deprecated, use `blocked_query_response`
+[2019-12-13 00:12:45] [NOTICE] dnscrypt-proxy 2.0.34-beta.1
+[2019-12-13 00:12:45] [NOTICE] Network connectivity detected
+[2019-12-13 00:12:45] [NOTICE] Loading the set of whitelisting rules from [dnscrypt-whitelist.txt]
+[2019-12-13 00:12:45] [NOTICE] Firefox workaround initialized
+[2019-12-13 00:12:45] [NOTICE] Loading the set of blocking rules from [dnscrypt-blacklist-domains.txt]
+[2019-12-13 00:12:48] [NOTICE] Loading the set of forwarding rules from [dnscrypt-forwarding-rules.txt]
+[2019-12-13 00:12:48] [NOTICE] Loading the set of IP blocking rules from [dnscrypt-blacklist-ips.txt]
+[2019-12-13 00:12:48] [NOTICE] Now listening to 127.0.0.1:5350 [UDP]
+[2019-12-13 00:12:48] [NOTICE] Now listening to 127.0.0.1:5350 [TCP]
+[2019-12-13 00:12:48] [NOTICE] Now listening to [::1]:5350 [UDP]
+[2019-12-13 00:12:48] [NOTICE] Now listening to [::1]:5350 [TCP]
+[2019-12-13 00:12:48] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 00:12:49] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 00:12:49] [NOTICE] [cisco] OK (DNSCrypt) - rtt: 416ms
+[2019-12-13 00:12:53] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 00:12:54] [NOTICE] [cloudflare] OK (DoH) - rtt: 95ms
+[2019-12-13 00:12:54] [NOTICE] Sorted latencies:
+[2019-12-13 00:12:54] [NOTICE] -    95ms cloudflare
+[2019-12-13 00:12:54] [NOTICE] -   416ms cisco
+[2019-12-13 00:12:54] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 95ms)
+[2019-12-13 00:12:54] [NOTICE] dnscrypt-proxy is ready - live servers: 2
+[2019-12-13 00:19:20] [INFO] Blocking [ww1.epoctimes.com.]
+[2019-12-13 00:19:21] [INFO] Blocking [ww1.epoctimes.com.]
+[2019-12-13 00:19:21] [INFO] Blocking [ww1.epoctimes.com.]
+[2019-12-13 00:19:25] [INFO] Blocking [ww1.epoctimes.com.]
+[2019-12-13 00:20:33] [INFO] Blocking [ww1.epoctimes.com.]
+[2019-12-13 00:28:13] [INFO] Blocking [www.apple.com.]
+[2019-12-13 00:39:03] [INFO] Blocking [www.apple.com.]
+[2019-12-13 00:57:08] [INFO] Blocking [www.apple.com.]
+[2019-12-13 01:52:39] [INFO] Blocking [www.apple.com.]
+[2019-12-13 01:52:47] [INFO] Blocking [www.apple.com.]
+[2019-12-13 02:01:35] [INFO] Blocking [www.apple.com.]
+[2019-12-13 02:20:18] [INFO] Blocking [www.apple.com.]
+[2019-12-13 02:45:24] [INFO] Blocking [www.apple.com.]
+[2019-12-13 04:12:54] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 04:12:54] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 04:12:54] [INFO] [cisco] OK (DNSCrypt) - rtt: 90ms
+[2019-12-13 04:12:54] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 04:12:54] [INFO] [cloudflare] OK (DoH) - rtt: 46ms
+[2019-12-13 04:12:54] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 04:12:54] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 04:12:54] [INFO] [cisco] OK (DNSCrypt) - rtt: 92ms
+[2019-12-13 04:12:55] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 04:12:55] [INFO] [cloudflare] OK (DoH) - rtt: 48ms
+[2019-12-13 04:12:55] [NOTICE] Sorted latencies:
+[2019-12-13 04:12:55] [NOTICE] -    48ms cloudflare
+[2019-12-13 04:12:55] [NOTICE] -    92ms cisco
+[2019-12-13 04:12:55] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 48ms)
+[2019-12-13 04:46:16] [INFO] Blocking [www.apple.com.]
+[2019-12-13 05:32:02] [INFO] Blocking [updates-http.cdn-apple.com.]
+[2019-12-13 07:44:10] [INFO] Blocking [www.apple.com.]
+[2019-12-13 07:45:30] [INFO] Blocking [www.googleadservices.com.]
+[2019-12-13 07:55:45] [INFO] Blocking [www.apple.com.]
+[2019-12-13 07:59:44] [INFO] Blocking [www.apple.com.]
+[2019-12-13 08:12:55] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 08:12:55] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 08:12:55] [INFO] [cisco] OK (DNSCrypt) - rtt: 91ms
+[2019-12-13 08:12:55] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 08:12:56] [INFO] [cloudflare] OK (DoH) - rtt: 47ms
+[2019-12-13 08:12:56] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 08:12:56] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 08:12:56] [INFO] [cisco] OK (DNSCrypt) - rtt: 89ms
+[2019-12-13 08:12:56] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 08:12:56] [INFO] [cloudflare] OK (DoH) - rtt: 95ms
+[2019-12-13 08:12:57] [NOTICE] Sorted latencies:
+[2019-12-13 08:12:57] [NOTICE] -    89ms cisco
+[2019-12-13 08:12:57] [NOTICE] -    95ms cloudflare
+[2019-12-13 08:12:57] [NOTICE] Server with the lowest initial latency: cisco (rtt: 89ms)
+[2019-12-13 08:20:33] [INFO] Blocking [www.apple.com.]
+[2019-12-13 12:12:57] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 12:12:57] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 12:12:57] [INFO] [cisco] OK (DNSCrypt) - rtt: 230ms
+[2019-12-13 12:12:57] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 12:12:58] [INFO] [cloudflare] OK (DoH) - rtt: 62ms
+[2019-12-13 12:12:58] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 12:12:59] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 12:12:59] [INFO] [cisco] OK (DNSCrypt) - rtt: 1127ms
+[2019-12-13 12:12:59] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 12:12:59] [INFO] [cloudflare] OK (DoH) - rtt: 118ms
+[2019-12-13 12:12:59] [NOTICE] Sorted latencies:
+[2019-12-13 12:12:59] [NOTICE] -   118ms cloudflare
+[2019-12-13 12:12:59] [NOTICE] -  1127ms cisco
+[2019-12-13 12:12:59] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 118ms)
+[2019-12-13 14:35:59] [INFO] Blocking [www.apple.com.]
+[2019-12-13 14:36:04] [INFO] Blocking [www.apple.com.]
+[2019-12-13 14:47:15] [INFO] Blocking [www.apple.com.]
+[2019-12-13 15:04:55] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-13 15:04:56] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-13 16:12:59] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 16:12:59] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 16:12:59] [INFO] [cisco] OK (DNSCrypt) - rtt: 110ms
+[2019-12-13 16:12:59] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 16:12:59] [INFO] [cloudflare] OK (DoH) - rtt: 62ms
+[2019-12-13 16:12:59] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 16:13:00] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 16:13:00] [INFO] [cisco] OK (DNSCrypt) - rtt: 131ms
+[2019-12-13 16:13:00] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 16:13:00] [INFO] [cloudflare] OK (DoH) - rtt: 135ms
+[2019-12-13 16:13:00] [NOTICE] Sorted latencies:
+[2019-12-13 16:13:00] [NOTICE] -   131ms cisco
+[2019-12-13 16:13:00] [NOTICE] -   135ms cloudflare
+[2019-12-13 16:13:00] [NOTICE] Server with the lowest initial latency: cisco (rtt: 131ms)
+[2019-12-13 16:20:17] [INFO] Blocking [www.apple.com.]
+[2019-12-13 17:51:11] [INFO] Blocking [www.apple.com.]
+[2019-12-13 18:21:32] [INFO] Blocking [www.apple.com.]
+[2019-12-13 19:04:13] [INFO] Blocking [www.apple.com.]
+[2019-12-13 19:19:19] [INFO] Blocking [www.googleadservices.com.]
+[2019-12-13 19:19:20] [INFO] Blocking [partner.googleadservices.com.]
+[2019-12-13 20:13:00] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 20:13:02] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 20:13:02] [INFO] [cisco] OK (DNSCrypt) - rtt: 1260ms
+[2019-12-13 20:13:02] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 20:13:03] [INFO] [cloudflare] OK (DoH) - rtt: 79ms
+[2019-12-13 20:13:03] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-13 20:13:06] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-13 20:13:06] [INFO] [cisco] OK (DNSCrypt) - rtt: 3218ms
+[2019-12-13 20:13:07] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-13 20:13:07] [INFO] [cloudflare] OK (DoH) - rtt: 998ms
+[2019-12-13 20:13:07] [NOTICE] Sorted latencies:
+[2019-12-13 20:13:07] [NOTICE] -   998ms cloudflare
+[2019-12-13 20:13:07] [NOTICE] -  3218ms cisco
+[2019-12-13 20:13:07] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 998ms)
+[2019-12-13 20:45:10] [INFO] Blocking [www.apple.com.]
+[2019-12-13 20:55:26] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-13 20:55:27] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-13 20:59:22] [INFO] Blocking [adservice.google.com.hk.]
+[2019-12-13 20:59:23] [INFO] Blocking [fonts.gstatic.com.]
+[2019-12-13 21:06:25] [INFO] Blocking [www.apple.com.]
+[2019-12-13 21:21:12] [INFO] Blocking [www.apple.com.]
+[2019-12-13 21:21:20] [INFO] Blocking [www.apple.com.]
+[2019-12-13 21:22:23] [INFO] Blocking [www.apple.com.]
+[2019-12-13 21:22:24] [INFO] Blocking [www.apple.com.]
+[2019-12-13 21:27:11] [INFO] Blocking [www.apple.com.]
+[2019-12-13 22:09:59] [INFO] Blocking [www.apple.com.]
+[2019-12-13 22:58:38] [INFO] Blocking [www.apple.com.]
+[2019-12-13 22:58:38] [INFO] Blocking [www.apple.com.]
+[2019-12-14 00:13:07] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 00:13:07] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 00:13:07] [INFO] [cisco] OK (DNSCrypt) - rtt: 159ms
+[2019-12-14 00:13:10] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 00:13:10] [INFO] [cloudflare] OK (DoH) - rtt: 371ms
+[2019-12-14 00:13:10] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 00:13:10] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 00:13:11] [INFO] [cisco] OK (DNSCrypt) - rtt: 476ms
+[2019-12-14 00:13:11] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 00:13:11] [INFO] [cloudflare] OK (DoH) - rtt: 98ms
+[2019-12-14 00:13:11] [NOTICE] Sorted latencies:
+[2019-12-14 00:13:11] [NOTICE] -    98ms cloudflare
+[2019-12-14 00:13:11] [NOTICE] -   476ms cisco
+[2019-12-14 00:13:11] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 98ms)
+[2019-12-14 04:13:11] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 04:13:11] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 04:13:11] [INFO] [cisco] OK (DNSCrypt) - rtt: 93ms
+[2019-12-14 04:13:11] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 04:13:11] [INFO] [cloudflare] OK (DoH) - rtt: 356ms
+[2019-12-14 04:13:11] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 04:13:11] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 04:13:12] [INFO] [cisco] OK (DNSCrypt) - rtt: 93ms
+[2019-12-14 04:13:12] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 04:13:12] [INFO] [cloudflare] OK (DoH) - rtt: 49ms
+[2019-12-14 04:13:12] [NOTICE] Sorted latencies:
+[2019-12-14 04:13:12] [NOTICE] -    49ms cloudflare
+[2019-12-14 04:13:12] [NOTICE] -    93ms cisco
+[2019-12-14 04:13:12] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 49ms)
+[2019-12-14 06:38:36] [INFO] Blocking [www.apple.com.]
+[2019-12-14 07:07:01] [INFO] Blocking [www.apple.com.]
+[2019-12-14 07:39:07] [INFO] Blocking [www.apple.com.]
+[2019-12-14 08:00:57] [INFO] Blocking [www.apple.com.]
+[2019-12-14 08:00:57] [INFO] Blocking [www.apple.com.]
+[2019-12-14 08:02:55] [INFO] Blocking [www.apple.com.]
+[2019-12-14 08:13:12] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 08:13:12] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 08:13:12] [INFO] [cisco] OK (DNSCrypt) - rtt: 117ms
+[2019-12-14 08:13:13] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 08:13:13] [INFO] [cloudflare] OK (DoH) - rtt: 54ms
+[2019-12-14 08:13:13] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 08:13:13] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 08:13:13] [INFO] [cisco] OK (DNSCrypt) - rtt: 115ms
+[2019-12-14 08:13:14] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 08:13:14] [INFO] [cloudflare] OK (DoH) - rtt: 60ms
+[2019-12-14 08:13:14] [NOTICE] Sorted latencies:
+[2019-12-14 08:13:14] [NOTICE] -    60ms cloudflare
+[2019-12-14 08:13:14] [NOTICE] -   115ms cisco
+[2019-12-14 08:13:14] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 60ms)
+[2019-12-14 12:13:14] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 12:13:14] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 12:13:14] [INFO] [cisco] OK (DNSCrypt) - rtt: 249ms
+[2019-12-14 12:13:15] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 12:13:15] [INFO] [cloudflare] OK (DoH) - rtt: 66ms
+[2019-12-14 12:13:15] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 12:13:16] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 12:13:16] [INFO] [cisco] OK (DNSCrypt) - rtt: 113ms
+[2019-12-14 12:13:16] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 12:13:16] [INFO] [cloudflare] OK (DoH) - rtt: 108ms
+[2019-12-14 12:13:16] [NOTICE] Sorted latencies:
+[2019-12-14 12:13:16] [NOTICE] -   108ms cloudflare
+[2019-12-14 12:13:16] [NOTICE] -   113ms cisco
+[2019-12-14 12:13:16] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 108ms)
+[2019-12-14 15:15:32] [INFO] Blocking [www.apple.com.]
+[2019-12-14 15:38:45] [INFO] Blocking [www.apple.com.]
+[2019-12-14 15:43:16] [INFO] Blocking [www.apple.com.]
+[2019-12-14 15:49:58] [INFO] Blocking [www.apple.com.]
+[2019-12-14 15:53:15] [INFO] Blocking [html-public.apeiwan.com.]
+[2019-12-14 15:53:23] [INFO] Blocking [tracking.yohoads.com.]
+[2019-12-14 15:59:35] [INFO] Blocking [ai.adtarget.tech.]
+[2019-12-14 15:59:36] [INFO] Blocking [ai.adtarget.tech.]
+[2019-12-14 16:00:47] [INFO] Blocking [tracking.yohoads.com.]
+[2019-12-14 16:00:47] [INFO] Blocking [html-public.apeiwan.com.]
+[2019-12-14 16:00:48] [INFO] Blocking [html-public.apeiwan.com.]
+[2019-12-14 16:10:02] [INFO] Blocking [www.apple.com.]
+[2019-12-14 16:13:16] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 16:13:16] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 16:13:17] [INFO] [cisco] OK (DNSCrypt) - rtt: 125ms
+[2019-12-14 16:13:17] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 16:13:17] [INFO] [cloudflare] OK (DoH) - rtt: 128ms
+[2019-12-14 16:13:17] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 16:13:18] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 16:13:18] [INFO] [cisco] OK (DNSCrypt) - rtt: 1142ms
+[2019-12-14 16:13:19] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 16:13:19] [INFO] [cloudflare] OK (DoH) - rtt: 275ms
+[2019-12-14 16:13:19] [NOTICE] Sorted latencies:
+[2019-12-14 16:13:19] [NOTICE] -   275ms cloudflare
+[2019-12-14 16:13:19] [NOTICE] -  1142ms cisco
+[2019-12-14 16:13:19] [NOTICE] Server with the lowest initial latency: cloudflare (rtt: 275ms)
+[2019-12-14 16:13:57] [INFO] Blocking [www.apple.com.]
+[2019-12-14 16:14:49] [INFO] Blocking [html-public.apeiwan.com.]
+[2019-12-14 16:15:05] [INFO] Blocking [tracking.yohoads.com.]
+[2019-12-14 16:37:50] [INFO] Blocking [www.apple.com.]
+[2019-12-14 17:06:02] [INFO] Blocking [www.apple.com.]
+[2019-12-14 17:22:50] [INFO] Blocking [www.microsoft.com.]
+[2019-12-14 17:22:53] [INFO] Blocking [www.microsoft.com.]
+[2019-12-14 17:52:32] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-14 17:52:32] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-14 18:18:39] [INFO] Blocking [www.apple.com.]
+[2019-12-14 18:19:34] [INFO] Blocking [www.microsoft.com.]
+[2019-12-14 18:41:38] [INFO] Blocking [www.apple.com.]
+[2019-12-14 18:41:38] [INFO] Blocking [www.apple.com.]
+[2019-12-14 19:41:29] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-14 19:41:30] [INFO] Blocking [v7event.stats.avast.com.]
+[2019-12-14 19:55:10] [INFO] Blocking [www.microsoft.com.]
+[2019-12-14 20:13:19] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 20:13:21] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 20:13:21] [INFO] [cisco] OK (DNSCrypt) - rtt: 1164ms
+[2019-12-14 20:13:23] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 20:13:23] [INFO] [cloudflare] OK (DoH) - rtt: 99ms
+[2019-12-14 20:13:23] [INFO] Known bug in [cisco]: padded queries are not correctly parsed
+[2019-12-14 20:13:23] [INFO] [cisco] the key validity period for this server is excessively long (365 days), significantly reducing reliability and forward security.
+[2019-12-14 20:13:23] [INFO] [cisco] OK (DNSCrypt) - rtt: 158ms
+[2019-12-14 20:13:24] [INFO] [cloudflare] TLS version: 304 - Protocol: h2 - Cipher suite: 4867
+[2019-12-14 20:13:24] [INFO] [cloudflare] OK (DoH) - rtt: 1088ms
+[2019-12-14 20:13:24] [NOTICE] Sorted latencies:
+[2019-12-14 20:13:24] [NOTICE] -   158ms cisco
+[2019-12-14 20:13:24] [NOTICE] -  1088ms cloudflare
+[2019-12-14 20:13:24] [NOTICE] Server with the lowest initial latency: cisco (rtt: 158ms)
+[2019-12-14 20:23:09] [INFO] Blocking [www.apple.com.]
+[2019-12-14 20:26:54] [INFO] Blocking [www.apple.com.]
+[2019-12-14 20:57:29] [INFO] Blocking [www.apple.com.]
