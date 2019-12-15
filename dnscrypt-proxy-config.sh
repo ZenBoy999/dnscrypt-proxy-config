@@ -27,7 +27,7 @@ echo 'ads.*' >>dnscrypt-blacklist-domains.txt
 echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
 cat toblock-without-shorturl-optimized.lst | grep -v '^#' | tr -s '\n' | tr A-Z a-z | grep -v '^ad\.' | grep -v -e '^ad[0-9]' | grep -v '^ads\.' | grep -v -e '^ads[0-9]' | rev | sort -n | uniq | rev >>dnscrypt-blacklist-domains.txt
 
-echo "Generating Claking Domains ..."
+echo "Generating Cloaking Domains ..."
 wget -qN https://github.com/missdeer/blocklist/raw/master/toblock-without-shorturl-optimized.lst
 wget -qN https://github.com/googlehosts/hosts/raw/master/hosts-files/dnscrypt-proxy-cloaking.txt
 echo '# Converted from https://github.com/googlehosts/hosts/blob/master/hosts-files/dnscrypt-proxy-cloaking.txt' >dnscrypt-cloaking-rules.txt
